@@ -1,0 +1,37 @@
+.checkout {
+  padding: 20px;
+  background: white;
+  height: max-content;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+
+/* Media QUeries*/
+
+@media screen and (min-width: 900px) {
+
+  .checkout {
+    display: flex;
+
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .checkout__left {
+    min-height: calc(73vh);
+  }
+
+}
